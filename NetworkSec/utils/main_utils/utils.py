@@ -24,8 +24,6 @@ def write_yaml_file(file_path: str, content: object, replace: bool = False) -> N
     except Exception as e:
         raise NetworkSecurityException(e, sys)
     
-'''    
-    
 def save_numpy_array_data(file_path: str, array: np.array):
     """
     Save numpy array data to file
@@ -50,6 +48,7 @@ def save_object(file_path: str, obj: object) -> None:
     except Exception as e:
         raise NetworkSecurityException(e, sys) from e
     
+''' 
 def load_object(file_path: str, ) -> object:
     try:
         if not os.path.exists(file_path):
