@@ -5,6 +5,10 @@ pymongo[srv]>=4.3
 certifi
 scikit-learn
 pyaml
-mlflow
+mlflow<3
+dagshub
+fastapi
+uvicorn
+python-multipart
 
 #-e .
