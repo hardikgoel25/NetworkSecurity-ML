@@ -10,5 +10,12 @@ dagshub
 fastapi
 uvicorn
 python-multipart
+joblib
+pathlib
+streamlit
+tldextract
+flask
+whois
+bs4
 
 #-e .
